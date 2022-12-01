@@ -1,0 +1,39 @@
+.image {
+  height: 120px;
+  width: 250px;
+  border-radius: 4px;
+  margin: 2px;
+}
+.image:hover {
+  border: 2px solid #2dd4bf;
+}
+.heading {
+  font-size: 14px;
+  margin: 0;
+  color: #f8fafc;
+  text-align: left;
+
+  margin-left: 10px;
+}
+* {
+  font-family: 'Roboto';
+}
+.para {
+  font-size: 14px;
+  color: #f8fafc;
+  text-align: left;
+
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .image {
+    width: 350px;
+    height: 150px;
+  }
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
